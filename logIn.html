@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<meta charset="UTF-8">
+	<title>	Login Page </title>
+	<script>
+		function check(){
+			confirm("Do you want to submit");
+		}
+	</script>
+
+ </head>
+ <body>
+	<form onsubmit="check()" action ="check.php" method="post">
+		User name: <input name= "usrName" type="text" required>     <br>
+ 	    Password : <input name="pwd" type="password" required> <br>
+				   <input type = "submit">  <input type="reset">	
+		<hr>
+	</form>
+	<p> if you are new, you have to <a href="register.html"> register </a> here </p>
+ </body>
+</html> 
